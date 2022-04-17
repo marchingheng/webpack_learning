@@ -1,0 +1,27 @@
+{
+  "name": "webpack_learning",
+  "version": "1.0.0",
+  "description": "1. analyzing modules with dependencies(import the codes) to create chunk, then preprocessed different kind of codes differently into bundle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marchingheng/webpack_learning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marchingheng/webpack_learning/issues"
+  },
+  "homepage": "https://github.com/marchingheng/webpack_learning#readme",
+  "dependencies": {
+    "css-loader": "^6.7.1",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
