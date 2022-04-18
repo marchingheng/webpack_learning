@@ -14,3 +14,9 @@ a. convert codes into the files(bundle) which browser can recognized: eg., webpa
 b. reduce the size of the download: remove comments, space, etc; condensed all frontend codes into index.html, index.js and a directory for media\
 c. maybe reduce the number of HTTP request: in Webpack, we can specify a limit for pictures to download, below which the picture will be converted into base64 string, which will be injected into the built.js file. When this happens, we don't need to make a separate HTTP request to download the picture.\
 d. obfuscation
+
+4. bazel vs webpack:\
+totally irelevant.\
+Bazel is a build tool for backend code. The code generated is still human readable and not compressed at all. For example, we can use bazel to generate protobuf classes for multiple services base on .proto file.\
+Webpack is a bundler tool for frontend code. The goal of using it is not to create anything new(in terms of logic), it is just processing and compressing the code into bundle.\
+Bazel and Webpack are not compiler, frontend compiler lives in the browser, and backend compiler lives in the server. They will compile the frontend/backend code into the machine language which can be executed directly.
